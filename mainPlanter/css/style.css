@@ -37,10 +37,15 @@
      position: relative;
 }
 
- .mainSlider .owl-prev,.owl-next {
+ .mainSlider .owl-prev{
     position: absolute;
     top: 30%;
     margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
+}
+.mainSlider .owl-next {
+   position: absolute;
+   top: 30%;
+   margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
 }
 
 .mainSlider .owl-prev {

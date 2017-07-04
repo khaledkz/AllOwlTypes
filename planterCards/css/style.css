@@ -46,13 +46,16 @@
     position: relative;
 }
 
-#plantersCard .owl-prev,
-.owl-next {
+#plantersCard .owl-prev {
     position: absolute;
     top: 30%;
     margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
 }
-
+#plantersCard .owl-next {
+    position: absolute;
+    top: 30%;
+    margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
+}
 #plantersCard .owl-prev {
     left: 0;
 }
